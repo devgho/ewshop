@@ -1,7 +1,7 @@
 <template>
   <nav-bar>
     <template v-slot:left>&lt;</template>
-    <template v-slot:default>分类</template>
+    <template v-slot:default>购物车</template>
   </nav-bar>
 </template>
 
@@ -9,7 +9,7 @@
 import NavBar from "@/components/common/NavBar";
 
 export default {
-  name: "Category",
+  name: "Shopcart",
   components:{
     NavBar
   }

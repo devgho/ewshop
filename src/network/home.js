@@ -1,5 +1,5 @@
 import {instance} from "@/network/request";
 
-export function getHomeAllData(){
-    return instance('/api/index')
+export function getHomeAllData(params){
+    return instance('/api/index?'+params)
 }
